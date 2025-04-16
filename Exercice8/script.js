@@ -1,3 +1,7 @@
-//Votre code ici
+const a = 10;
+const b = 16.666;
 
- export default add;
+function add(a, b) {
+  return a + b;
+}
+console.log(add(a, b)); // 26.666
